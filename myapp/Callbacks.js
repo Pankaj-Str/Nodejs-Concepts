@@ -1,5 +1,5 @@
 
-var fs = require("_fs");
+var fs = require("fs");
 
 var data = fs.readFileSync('p4n.txt');
 

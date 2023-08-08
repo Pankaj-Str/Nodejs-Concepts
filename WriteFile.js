@@ -1,6 +1,6 @@
 //Writing a File Asynchronously using nodejs
 var fs =  require('fs');
-var content= "this is the content in the file";
+var content= "www.codeswithpankaj.com";
 fs.writeFile('p4n.txt', content , (err) => {
 	if (err) 
 		throw err;
