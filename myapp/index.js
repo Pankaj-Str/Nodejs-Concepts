@@ -1,6 +1,6 @@
 // index.js
 
-const express = require('express');
+const express = require('../node_modules/express');
 
 const app = express();
 
