@@ -31,26 +31,34 @@ Assume you have an HTML file named `sample.html`:
 **`app.js`**
 ```javascript
 const fs = require('fs');
+const path = require('path');
 const cheerio = require('cheerio');
 
+// Define the path to the HTML file
+const filePath = path.join(__dirname, 'index.html');
+
 // Read the HTML file
-fs.readFile('sample.html', 'utf8', (err, html) => {
+fs.readFile(filePath, 'utf8', (err, html) => {
     if (err) {
-        console.error('Error reading file:', err);
+        console.error('Error reading file:', err.message);
         return;
     }
 
-    // Parse the HTML content
-    const $ = cheerio.load(html);
+    try {
+        // Parse the HTML content
+        const $ = cheerio.load(html);
 
-    // Extract and log content
-    const title = $('title').text();
-    const heading = $('h1').text();
-    const paragraph = $('p').text();
+        // Extract and log content
+        const title = $('title').text() || 'No title found';
+        const heading = $('h1').text() || 'No heading found';
+        const paragraph = $('p').text() || 'No paragraph found';
 
-    console.log('Title:', title);
-    console.log('Heading:', heading);
-    console.log('Paragraph:', paragraph);
+        console.log('Title:', title);
+        console.log('Heading:', heading);
+        console.log('Paragraph:', paragraph);
+    } catch (parseError) {
+        console.error('Error parsing HTML:', parseError.message);
+    }
 });
 ```
 
