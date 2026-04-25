@@ -7,3 +7,4 @@ fs.readFile('output.txt', 'utf8', (err, data) => {
         console.log('Data read from file:', data);
     }
 });
+
