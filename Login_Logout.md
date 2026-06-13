@@ -1,4 +1,4 @@
-**Node.js Login & Logout System with MySQL **
+# Node.js Login & Logout System with MySQL
 
 
 ### 1. Prerequisites
