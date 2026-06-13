@@ -287,6 +287,3 @@ Visit: `http://localhost:3000`
 
 
 
-Would you like me to add any of these features, convert this into a **Hinglish** version, create a **PPT**, or add **JWT** authentication instead of sessions? Let me know! 
-
-You can copy-paste this code and it should work perfectly. Happy coding! 🚀
