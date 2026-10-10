@@ -1,6 +1,5 @@
-# Node.js Events – Beginner Step-by-Step Tutorial
+# Node.js Events
 
-In this tutorial, we will learn Node.js Events from zero with simple examples and complete code. This is useful for beginners who want to understand how events work in Node.js.
 
 ## 1. What is an Event in Node.js?
 
