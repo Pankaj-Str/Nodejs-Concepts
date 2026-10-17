@@ -3,7 +3,6 @@
 
 ## 1. What will we build?
 
-[GitHub - utsav91092/epic-student-ui · GitHub](https://images.openai.com/static-rsc-4/zQMBPaXhwGtFoFhTmXjn0kibRjxWSZdyFPxWBkLpB21ebCerSLOS0LrFGgC9hOdQu6gFVhphHXCs7RRV6Fb0-w9Qka9xNrq4aJL_s9Z8avnQsgtPtV6mPapRXI-0f-k7m07f76dF5Wm8_gMoGev9atpiSdJuVNNMVL6wEPz24GQ?purpose=inline)
 
 Student Management System
 
